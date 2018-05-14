@@ -14,7 +14,7 @@ namespace CoreWithTest.Controllers
         public IActionResult Index()
         {
             Class1 class1 = new Class1();
-            ViewData["Sum"] = "Sum of 2 + 100 =" + class1.Sum(2, 100);
+            ViewData["Sum"] = "Sum of 3 + 100 =" + class1.Sum(2, 103);
             return View();
         }
 
