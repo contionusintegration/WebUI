@@ -25,7 +25,7 @@ namespace UnitTestProject2
         [TestMethod]
         public void ShouldSubtractCorrectAll()
         {
-            Class1 class1 = new Class1();
+            Class1 class1 = new Class1() ;
             var total = class1.Subtract(1, 1);
             Assert.AreEqual(total, 0);
         }
