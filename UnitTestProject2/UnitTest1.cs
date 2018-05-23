@@ -15,7 +15,7 @@ namespace UnitTestProject2
         }
 
         [TestMethod]
-        public void ShouldSubtractCorrect12()
+        public void ShouldSubtractCorrect123()
         {
             Class1 class1 = new Class1();
             var total = class1.Subtract(1, 1);
